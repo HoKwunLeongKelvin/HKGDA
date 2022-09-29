@@ -1,0 +1,25 @@
+.slider{
+  height: 1000px;
+  align-self: auto;
+}
+
+.supportRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.supportRowItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.video {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}

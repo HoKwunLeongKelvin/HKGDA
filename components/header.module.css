@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  flex-direction: row-reverse; 
+  height: 100px;
+  width: 80%;
+  margin: auto;
+}
+.header{
+  display: flex;
+  flex-direction: row-reverse; 
+  height: 100px;
+  width: 80%;
+  margin: auto;
+}
+.headernav {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgb(93, 93, 93);
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.navtext {
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  align-self: center;
+}
+
+.borderCircle {
+  border-radius: 30px;
+}
+
+@media (max-width: 800px) {
+  .nav {
+    display: none;
+  }
+}
